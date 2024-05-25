@@ -64,8 +64,7 @@ public class encodeDecodeBT {
         String encoded1 = test.encode(root1);
         System.out.println("Encoded: " + encoded1);
         TreeNode2 decoded1 = test.decode(encoded1);
-        System.out.println("Decoded Tree (Level Order): " + test.encode(decoded1));
-
+        System.out.println("Decoded Tree: " + test.encode(decoded1));
 
     }
 }
